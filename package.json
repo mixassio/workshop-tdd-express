@@ -7,6 +7,8 @@
     "test": "jest --colors",
     "nodemon": "nodemon",
     "start": "npm run nodemon -- --exec babel-node bin/server.js",
+    "babel-node": "babel-node",
+    "eslint": "eslint",
     "webpack": "webpack",
     "build": "npm run webpack -- -p --env production",
     "postinstall": "npm run build"
